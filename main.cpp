@@ -2,18 +2,25 @@
 // Name Program : bubble sort
 #include <iostream>
 #include "bubble.h"
+#include "data.h"
+#include <time.h>
 
+using namespace std;
 
 int main()
 {
-    int number_array[] = {4,2,3,1};
+    clock_t t1,t2;
+    int number_array[1000];
     int length = (sizeof number_array / sizeof* number_array);
-    std::cout << "Bubble Sort Program "<< std::endl;
-    std::cout << "Not Ordered Number : " ;
-    display(number_array,length);
-    std::cout<< std::endl;
+    setData(number_array,1000);
+    cout << length << endl;
+    cout << "Bubble Sort Program "<< endl;
+    t1 = clock();
     bubble_sort_2(number_array, length);
-    std::cout << "Not Ordered Number : ";
+    t2 = clock();
+    float diff = (float)(t2-t1)/CLOCKS_PER_SEC;
+    cout << "Ordered Number : " << endl;
     display(number_array,length);
+    cout << endl << "Process time : " << diff;
+    cout << endl << "Total Data   : " << length;
 }
-
