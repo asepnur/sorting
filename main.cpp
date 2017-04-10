@@ -1,5 +1,6 @@
 // By           : Asep Nur Muhammad
-// Name Program : bubble sort
+// Name Program : All Sorting sort
+
 #include <iostream>
 #include <time.h>
 #include "data.h"
@@ -8,6 +9,7 @@
 #include "selection.h"
 #include "insertion.h"
 #include "count.h"
+#include "radix.h"
 
 #include "display_array.h"
 
@@ -21,6 +23,10 @@ int main()
     double   diff;
     int     number_array[LENGTH],
             input_counting[LENGTH_COUNT];
+    setData(number_array,LENGTH);
+    radix_sort(number_array, LENGTH);
+    display(number_array,LENGTH);
+
 
     //1a. <!-- Set Unordered Data" -->
     setDataCounting(input_counting,LENGTH_COUNT);
@@ -57,7 +63,7 @@ int main()
     diff = (float)(t2-t1)/CLOCKS_PER_SEC;
 
     //3c. <!-- Display Information Selection Sort -->
-    information(diff, LENGTH, "Insertion Sort");
+    information(diff, LENGTH, "Selection Sort");
 
     //3a. <!-- Set Unordered Data" -->
     setData(number_array,1000);

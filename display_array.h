@@ -14,10 +14,10 @@ void display(int *number_array,size_t length){
     }
 }
 void information(double time_process, size_t LENGTH, string algorithm){
-    cout << endl << "Algorithm      : " << algorithm;
+    cout <<         "Algorithm      : " << algorithm;
     cout << endl << "Process time   : " << time_process;
     cout << endl << "Total Data     : " << LENGTH;
-    cout << endl << "Ordered Number : " << endl;
+    cout << endl << "Ordered Number : " << endl << endl;
 }
 
 #endif // DISPLAY_ARRAY_H_INCLUDED
