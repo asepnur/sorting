@@ -1,18 +1,25 @@
 # depslib dependency file v1.0
-1491732363 source:e:\coding\c++\sorting\main.cpp
+1491805489 source:e:\coding\c++\sorting\main.cpp
 	<iostream>
+	<time.h>
+	"data.h"
 	"bubble.h"
 	"selection.h"
-	"data.h"
-	<time.h>
+	"insertion.h"
+	"count.h"
 	"display_array.h"
 
 1491731945 e:\coding\c++\sorting\bubble.h
 
-1491731762 e:\coding\c++\sorting\data.h
+1491805656 e:\coding\c++\sorting\data.h
 	<iostream>
 
 1491731967 e:\coding\c++\sorting\display_array.h
 
-1491733132 e:\coding\c++\sorting\selection.h
+1491740903 e:\coding\c++\sorting\selection.h
+
+1491736997 e:\coding\c++\sorting\insertion.h
+
+1491804879 e:\coding\c++\sorting\count.h
+	"display_array.h"
 

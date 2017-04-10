@@ -35,7 +35,22 @@
 		<Unit filename="bubble.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="count.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="display_array.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="insertion.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="selection.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

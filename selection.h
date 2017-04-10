@@ -2,7 +2,7 @@
 #define SELECTION_H_INCLUDED
 
 void selection_sort(int *data, size_t length){
-    int min_index = 0,
+    size_t min_index = 0,
         temp      = 0;
 
     for(size_t i = 0 ; i++ < length - 1;){
